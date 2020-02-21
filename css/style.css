@@ -1,0 +1,155 @@
+body {
+
+    padding: 27px;
+    margin: 0 47px;
+}
+
+header {}
+
+.container {
+
+display: flex;
+
+width: 100%;
+}
+
+.logo {
+
+    max-width: 120px;
+
+    flex-basis: 7%;
+}
+
+.menu {
+    flex-basis: 91%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+
+    list-style: none;
+
+    padding: 0px 0px 0px 110px;
+}
+
+nav ul li a {
+
+    font-style: normal;
+
+    font-size: 16px;
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+    
+
+    color: #544e4e;
+}
+
+.banner{
+    
+}
+
+
+
+div.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.photodiary{
+    padding: 52px;
+}
+
+h1{
+        font-family: monospace;
+    color: #544e4e;
+}
+
+p{font-family: sans-serif;color: #544e4e;}
+
+a{
+    
+font-style: normal;
+    
+font-size: 11px;
+    
+text-decoration: none;
+    
+text-transform: uppercase;
+    
+color: #544e4e;
+}
+
+.lifestyle{
+    padding: 52px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.lifestylechild{
+    flex-basis: 45%;
+}
+
+
+.lifestylechild img{
+    width: 100%;
+    height: auto;
+}
+
+.kontainer{
+    display: flex;
+    background-color: #cecccc;
+    padding: 2% 5% 0 2%;
+}
+
+.leftfoot{
+    flex-basis: 35%;
+}
+
+.leftfoot ul{
+    
+display: flex;
+}
+
+.leftfoot ul li{
+    
+list-style: none;
+    
+padding-right: 15%;
+}
+
+.leftfoot ul li a{
+    
+}
+
+.rightfoot{flex-basis: 65%;/* padding-right: 5%; */}
+
+.rightfoot ul{
+    
+display: flex;
+    
+justify-content: flex-end;
+}
+
+.rightfoot ul li{
+    
+list-style: none;
+}
+
+.rightfoot ul li a img{
+    
+width: 40px;
+}
+
+
+.rightfoot ul li p{
+    
+}
+
+
